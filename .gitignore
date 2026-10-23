@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Large Raw Outputs
+result/
+pdf/
+crops/
+unlocked_vpast_es100/
+temp_unlocked.zip
+vpast_es100_source.zip
+
+# Keep only the encrypted security bundle and unlock tool
+!vpast_es100_secure_bundle.bin
+!unlock_bundle.py
+!README.md
+!scripts/
+!docs/
+!.gemini/

@@ -4,18 +4,28 @@ __pycache__/
 *.pyo
 .env
 
-# Large Raw Outputs
+# Large Raw Outputs & Media
 result/
 pdf/
 crops/
+upload/
+test_out.txt
 unlocked_vpast_es100/
 temp_unlocked.zip
 vpast_es100_source.zip
 
-# Keep only the encrypted security bundle and unlock tool
+# Proprietary Source & Manuals (Protected inside encrypted bundle vpast_es100_secure_bundle.bin)
+docs/
+.gemini/
+prompt/
+conversation/
+master_rule_00.md
+
+# Public Tracked Files in GitHub Repository
 !vpast_es100_secure_bundle.bin
 !unlock_bundle.py
+!unlock.bat
 !README.md
 !scripts/
-!docs/
-!.gemini/
+!scripts/push_to_github.bat
+!.gitignore
